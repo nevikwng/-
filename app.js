@@ -34,4 +34,8 @@ app.use((error, req, res, next) => {
     .json({ message: error.message || "unKnown Error!!!!!!go fuck yourself" });
 });
 
+
 app.listen(5000, () => console.log("server start 🥶😱"));
+
+
+
