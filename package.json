@@ -1,0 +1,20 @@
+{
+  "name": "gym-api",
+  "version": "1.0.0",
+  "description": "gym-api-server",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Tim",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-mysql-session": "^2.1.4",
+    "mysql2": "^2.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
