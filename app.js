@@ -31,10 +31,7 @@ app.use((error, req, res, next) => {
   if (res.headerSent) return next(error);
   res
     .status(error.code || 500)
-    .json({ message: error.message || "unKnown Error!!!!!!go fuck yourself" });
+    .json({ message: error.message || "unKnown Error!" });
 });
 
-
-
 app.listen(5000, () => console.log("server start 🥶😱"));
-
