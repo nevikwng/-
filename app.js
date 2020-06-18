@@ -20,7 +20,9 @@ app.use((req, res, next) => {
 });
 
 // Router
-app.use("/api/shop", shopRoutes);
+app.use("/", shopRoutes);
+app.use("/api/OrderList", shopRoutes);
+
 
 // Error handler
 app.use((req, res, next) => {
